@@ -82,37 +82,15 @@ ServerStatus 一键安装管理脚本 [vx.x.x]
 
 ### 客户端：
 
-启动：service status-client start
-
-停止：service status-client stop
-
-重启：service status-client restart
-
-查看状态：service status-client status
+启动|停止|重启|查看状态：service status-client start|stop|restart|status
 
 ### 服务端：
 
-启动：service status-server start
+启动|停止|重启|查看状态：service status-server start|stop|restart|status
 
-停止：service status-server stop
+### Apache（HTTP服务）：
 
-重启：service status-server restart
-
-查看状态：service status-server status
-
-### Caddy（HTTP服务）：
-
-启动：service caddy start
-
-停止：service caddy stop
-
-重启：service caddy restart
-
-查看状态：service caddy status
-
-Caddy配置文件：/usr/local/caddy/caddy
-
-默认脚本只能一开始安装的时候设置配置文件，更多的Caddy使用方法，可以参考这些教程：https://doub.io/search/caddy
+启动|停止|重启|查看状态：service apache2 start|stop|restart|status
 
 ——————————————————————————————————————
 
